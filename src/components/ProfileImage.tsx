@@ -9,7 +9,7 @@ interface ProfileImageProps {
 const ProfileImage: React.FC<ProfileImageProps> = ({imageUrl: _imageUrl}) => {
   return (
     <Image
-      source={{uri: 'https://avatars.githubusercontent.com/u/8147523?v=4'}} // Keep this hardcoded or replace with logic that uses _imageUrl
+      source={{uri: 'https://media.licdn.com/dms/image/C4D03AQEZfghhp1hKsw/profile-displayphoto-shrink_400_400/0/1600370469022?e=1723680000&v=beta&t=BpQmIszmpa9B0JeTKV_53qtLPfk0GWebIZwRf1DQwsw'}} // Keep this hardcoded or replace with logic that uses _imageUrl
       style={styles.profileImage}
     />
   );
